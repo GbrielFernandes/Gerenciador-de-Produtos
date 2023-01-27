@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto CCXP</title>
+    <style>
+
+        *{
+           margin: 0px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+       header{
+            padding: 10px;
+            background-color: #FFD900 ;
+       }
+
+       section{
+        display: flex;
+       }
+
+       
+
+       #descricao{
+        height: 600px;
+        width: 800px;
+        background-color:#514988 ;
+        margin-right: 5px;
+        text-align: center;
+        padding: 5px;
+        line-height: 30px;
+        color: white;
+       }
+
+       #titulo{
+        letter-spacing: 10px;
+        color:#F3C61F;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        font-size: 40px;
+       }
+
+       #paragrafo{
+        padding-bottom: 10px;
+        letter-spacing: 10px;
+        font-weight: bold;
+       }
+
+       #paragrafo2{
+        padding: 20px;
+        line-height: 50px;
+       }
+
+       #countDown{
+            font-size: 30px;
+            padding: 10px;
+            display: flex;
+            justify-content:space-around;
+            list-style-type: none;
+            color: #514988;
+       }
+
+       #texto2{
+         text-align: center;
+         word-spacing: 25px;
+         color: #E33881;
+       }
+
+       #solo{
+        word-spacing: 55px;
+        margin: 20px 200px 20px 100px;
+        color: #F3C61F;
+        
+       }
+
+       footer{
+        display: flex;
+        
+       }
+
+       img{
+        padding: 5px;;
+       }
+
+       button{
+        background-color: #514988;
+        border-style: none;
+        color: white;
+        height: 128px;
+        width: 506px;
+        border-radius: 20px;
+        margin-top: 40px;
+        font-weight: bold;
+        font-size: 25px;
+       }
+
+       button:hover{
+        color: #F3C61F;
+        cursor: pointer;
+       }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="/16_desafioCCXP/ccxp.svg" alt="">
+    </header> 
+    
+    <section>
+
+        <div id="descricao">
+
+            <h1 id="titulo">REVIVA O ÉPICO</h1>
+            <p id="paragrafo"><strong>DE 01 A 04 DE DEZEMBRO</strong></p>
+            <p id="paragrafo2">
+
+                 Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em dezembro de 2022, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os tempos. Prepare-se para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar nos auditórios e encontrar aventuras épicas a cada passo pelos nossos corredores.
+
+             </p>
+
+        </div>
+
+        <div>
+
+            <div>
+                <ul id="countDown">
+                    <li id="dias"></li>vbf cv v c vcvvc v  
+                    <li id="hora"></li>
+                    <li id="min"></li>
+                    <li id="seg"></li>
+                </ul>
+            </div>
+            <p id="texto2"><strong>PARA A MAIOR CCXP DE TODOS OS TEMPOS</strong></p>
+            <video width="998px" controls loop src="/16_desafioCCXP/Arlequina (1).mp4"></video>
+
+        </div>
+            
+    </section>
+
+    <p id="solo"><strong>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</strong></p>
+
+    <footer>
+
+        
+
+        <img width="300px" src="/16_desafioCCXP/qui.svg" alt="">
+        <img width="300px" src="/16_desafioCCXP/sex.svg" alt="">
+        <img width="300px" src="/16_desafioCCXP/sab.svg" alt="">
+        <img width="300px" src="/16_desafioCCXP/dom.svg" alt="">
+
+        <button>GARANTA O SEU!</button>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

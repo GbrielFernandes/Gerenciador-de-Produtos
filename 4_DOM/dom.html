@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        body{
+            background-color:rgb(12, 112, 242);
+            color: white;
+        }
+
+        div{
+            padding: 30px;
+        }
+
+    </style>
+</head>
+<body id="principal">
+    <div id="div1">
+        <h1>Aprendendo DOM</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quidem aut maxime tempora quae, ipsum assumenda soluta placeat. Natus vero ratione error vitae quos adipisci tempora deserunt hic quis atque!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat consequatur tempore, aut accusantium iste, repudiandae quasi enim sed eos dolorum consequuntur autem ipsum, aliquid quaerat. Fuga asperiores tenetur ipsum aliquid!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aperiam iusto alias repellat mollitia. Aspernatur architecto cupiditate neque dolore sunt nam officia quod necessitatibus alias, quidem error, iusto culpa tempora.
+        </p>
+        <button class="botao">Clique aqui</button>
+    </div>
+    <script>
+        //window.document.write('Minha primeira manipulação DOM')
+        //window.alert('oi') 
+        var x = window.document.getElementById("principal")
+        x.style.background = 'black'
+        var y = window.document.getElementsByTagName('h1')[0]
+        y.style.color = 'green'
+        var z = window.document.getElementsByClassName('botao')[0]
+        z.innerHTML = 'logar'
+        var a = window.document.querySelector("#div1")
+        a.style.background = 'blue'
+    </script>
+
+</body>
+</html>
